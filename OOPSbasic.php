@@ -15,7 +15,7 @@
         function __constructor($aname, $agpa){
             echo "New student counted: <br>";
             $this->name = $aname;
-            $this->gpa = $gpa;
+            $this->gpa = $agpa;
         }
         //now making a object function for performing our operations
         function chk(){
